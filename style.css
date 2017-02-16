@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	/*border: 2px solid blue;*/
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.header img{
+	width: 100%;
+	height: 100vh;
+}
+.join{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+.layout{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	transition: all 2s;
+}
+.layout:hover{
+	background: rgba(0,0,0,.7);
+}
+#btn{
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	background: coral;
+	font-family: sans-serif;
+	color: white;
+	padding: 5px;
+	position: relative;
+	transition: all 2s;
+}
+#btn:hover{
+	transform: scale(1.3);
+}
+.service{
+	width: 100%;
+	height:450px;
+	position: relative;
+	padding-top: 10px;
+	/*border: 2px solid red;*/
+	background: rgb(128,128,128);
+
+}
+.slide1{
+	position: absolute;
+	/*border: 2px solid blue;*/
+	width: 28%;
+	height: 400px;
+	left:5%;
+	background:#696969;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	transition: all 2s;
+}
+.slide1:hover{
+	transform: scale(0.9);
+}
+.visit1{
+	margin-top: 20%;
+	padding: 40px;
+	border-radius: 100%;
+	border: none;
+	background: #666699;
+	cursor: pointer;
+	color: white;
+	font-family: sans-serif;
+}
+.slide2{
+	position: absolute;
+	/*border: 2px solid blue;*/
+	width: 28%;
+	height: 400px;
+	left:36%;
+	background:#696969;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	transition: all 2s;
+
+}
+.slide2:hover{
+	transform: scale(0.9);
+}
+.visit2{
+	margin-top: 20%;
+	padding: 40px;
+	border-radius: 100%;
+	border: none;
+	background:#666699;
+	cursor: pointer;
+	color: white;
+	font-family: sans-serif;
+}
+.slide3{
+	position: absolute;
+	/*border: 2px solid blue;*/
+	width: 28%;
+	height: 400px;
+	left: 67%;
+	background:#696969;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	transition: all 2s;
+}
+.slide3:hover{
+	transform: scale(0.9);
+}
+.visit3{
+	margin-top: 20%;
+	padding: 40px;
+	border-radius: 100%;
+	border: none;
+	background: #666699;
+	cursor: pointer;
+	color: white;
+	font-family: sans-serif;
+}
